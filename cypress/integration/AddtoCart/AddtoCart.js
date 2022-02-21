@@ -23,7 +23,7 @@ const product = {
     inputCreditCard: () => cy.get('#card'),
     sweetAlert: () => cy.get('.sweet-alert'),
     okButton: () => cy.get('.confirm'),
-    orderText: () => cy.findByText(/Card Number:/i),
+    orderText: () => cy.get('.lead'),
 
 
 }

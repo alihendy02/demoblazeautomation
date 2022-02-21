@@ -25,7 +25,7 @@ describe ('Sign up',  () => {
         sendContact.typeContactEmail(credentials.user);
         sendContact.typeContactName(credentials.existingUser);
         sendContact.typeContactMessage(credentials.message);
-        cy.wait(100);
+        cy.wait(2000);
         sendContact.submitContactMessage();
     });
 
